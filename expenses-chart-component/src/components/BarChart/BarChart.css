@@ -1,0 +1,6 @@
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  min-height: 300px;
+  max-width: 100%;
+}

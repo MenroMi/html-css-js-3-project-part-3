@@ -1,0 +1,61 @@
+.schedule-component {
+  min-height: 200px;
+  border-radius: 0.875rem;
+  background-color: var(--neutral-very-pale-orange);
+  padding: 1.5rem 1.375rem;
+  width: 100%;
+}
+
+.schedule-component h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+
+.divider {
+  border-bottom: 2px solid var(--neutral-cream);
+}
+
+.total {
+  min-height: 50px;
+  margin-top: 1.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total__currency {
+  text-align: left;
+}
+
+
+.total__previous {
+  text-align: right;
+  align-self: flex-end;
+}
+
+
+.total__currency .curr-descr,
+.total__previous .prev-descr {
+  color: var(--neutral-medium-brown);
+  font-size: 1rem;
+}
+
+.total__currency .curr-amount {
+  margin-top: 0.7rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.total__previous .prev-amount {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+
+@media (min-width: 50em) {
+  .total__currency .curr-amount {
+    font-size: 3rem;
+  }
+}
