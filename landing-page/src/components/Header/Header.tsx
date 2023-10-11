@@ -27,7 +27,7 @@ const Header = ({children}: IHeaderProps) => {
         <Box className="flex justify-center mt-7">
           <Button
             content="Get Started"
-            className="w-[95%] sm:w-72 py-3 rounded-3xl "
+            className="w-[95%] sm:w-72 py-3 rounded-3xl"
           />
         </Box>
       </Section>

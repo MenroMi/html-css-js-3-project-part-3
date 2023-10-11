@@ -1,5 +1,4 @@
 // basic
-import {useEffect, useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons';
 
@@ -28,20 +27,11 @@ import {
   socialMedia,
 } from '../constants';
 
-// types
-import {IComment} from '../types';
-
 // styles
 import './App.css';
-import {getComments} from '../services';
+import {comments} from '../constants';
 
 function App() {
-  const [comments, setComments] = useState<IComment[] | null>(null);
-
-  useEffect(() => {
-    getComments(setComments);
-  }, []);
-
   return (
     <>
       <Header>

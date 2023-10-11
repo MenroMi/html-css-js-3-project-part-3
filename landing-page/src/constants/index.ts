@@ -1,4 +1,4 @@
-import {IAdvantages} from '../types';
+import {IAdvantages, IComment} from '../types';
 
 export const navItems: string[] = ['Feauters', 'Team', 'Sign In'];
 
@@ -49,3 +49,27 @@ export const socialMedia = ['facebook', 'twitter', 'instagram'];
 
 export const regexpEmail: RegExp =
   /^((([!#$%&'*+\-/=?^_`{|}~\w])|([!#$%&'*+\-/=?^_`{|}~\w][!#$%&'*+\-/=?^_`{|}~.\w]{0,}[!#$%&'*+\-/=?^_`{|}~\w]))[@]\w+([-.]\w+)*\.\w+([-.]\w+)*)$/;
+
+export const comments: IComment[] = [
+  {
+    full_name: 'Satish Patel',
+    title: 'Founder & CEO, Huddle',
+    photo: './profile-1.jpg',
+    comment:
+      'Fylo has improved out team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collboration machine.',
+  },
+  {
+    full_name: 'Bruce McKenzie',
+    title: 'Founder & CEO, Huddle',
+    photo: './profile-2.jpg',
+    comment:
+      'Fylo has improved out team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collboration machine.',
+  },
+  {
+    full_name: 'Iva Boyd',
+    title: 'Founder & CEO, Huddle',
+    photo: './profile-3.jpg',
+    comment:
+      'Fylo has improved out team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collboration machine.',
+  },
+];
