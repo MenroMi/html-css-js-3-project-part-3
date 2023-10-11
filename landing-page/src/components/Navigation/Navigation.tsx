@@ -14,10 +14,10 @@ const Navigation: FC<INavigationProps> = ({logo, navItems}) => {
 
       <ul
         id="nav-items"
-        className="flex gap-2 md:gap-16 h-full items-center w-full max-w-[350px] justify-between"
+        className="flex gap-2 md:gap-16 h-full items-center w-full max-w-[350px]  justify-between"
       >
         {navItems.map(item => (
-          <li className={`cursor-pointer text-center`} key={item}>
+          <li className={`cursor-pointer text-center flex-1`} key={item}>
             <a
               href="/"
               className="text-xs sm:text-base hover:font-semibold active:font-semibold active:text-cyan"
