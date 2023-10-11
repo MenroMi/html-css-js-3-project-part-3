@@ -1,0 +1,58 @@
+/* headings, call-to-actions, header nav */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* body */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  /* primary */
+
+  --clr-intro-email-sign-bgc: hsl(217, 28%, 15%);
+  --clr-main-bgc: hsl(218, 28%, 13%);
+  --clr-footer-bgc: hsl(216, 53%, 9%);
+  --clr-testimonial-bgc: hsl(219, 30%, 18%);
+
+  /* accent */
+
+  --clr-cyan: hsl(176, 68%, 64%);
+  --clr-blue: hsl(198, 60%, 50%);
+  --clr-red-light: hsl(0, 100%, 63%);
+  --gradient-btn: linear-gradient(66deg, rgba(101, 226, 217, 1) 40%, rgba(51, 158, 204, 1) 100%);
+  --gradient-btn-active: linear-gradient(66deg, rgba(101, 226, 217, 1) 100%, rgba(51, 158, 204, 1) 100%);
+
+
+  /* neutral */
+
+  --clr-white: hsl(0, 0%, 100%);
+
+
+  /* typography */
+
+  --default-txt-size: 0.875rem;
+
+  --header-heading: clamp(1.75rem, 2vw, 6rem);
+  --header-card-p: clamp(1rem, 1vw, 3rem);
+
+  --card-heading: clamp(1.125rem, 1vw, 5rem);
+  --card-p: clamp(1rem, 1vw, 3rem);
+
+  --how-works-sec-heading: clamp(1.125rem, 2vw, 5rem);
+  --how-works-sec-p: clamp(1rem, 1vw, 2rem);
+
+  --comment: clamp(0.875rem, 1vw, 3rem);
+
+  /* font family */
+
+  --raleway-family: Raleway, sans-serif;
+  --open-sans-family: "Open Sans", sans-serif;
+
+
+
+}
