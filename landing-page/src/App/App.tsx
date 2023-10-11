@@ -19,7 +19,6 @@ import {
 
 // constants
 import {
-  BUTTON_TYPES,
   advantages,
   footerMenuItems,
   navItems,
@@ -120,7 +119,6 @@ function App() {
                   placeholder="email@example.com"
                 />
                 <Button
-                  type={BUTTON_TYPES.SUBMIT}
                   content="Get Started For Free"
                   className="w-full h-11 lg:w-72 rounded-3xl text-sm"
                 />

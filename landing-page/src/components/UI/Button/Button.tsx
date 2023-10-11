@@ -1,22 +1,19 @@
 import {FC} from 'react';
-import {BUTTON_TYPES} from '../../../constants';
 
 interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
-  type?: BUTTON_TYPES;
   content: string;
   children?: React.ReactNode;
 }
 
 const Button: FC<IButtonProps> = ({
-  type = BUTTON_TYPES.BUTTON,
   className,
   content,
-  id,
+  id = 'btn',
   children,
   ...props
 }) => {
   return (
-    <button id={id ? id : 'btn'} type={type} className={className} {...props}>
+    <button className={`${id === 'btn' ? 'btn' : ''} ${className}`} {...props}>
       {content}
       {children}
     </button>

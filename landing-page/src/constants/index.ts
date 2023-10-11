@@ -2,12 +2,6 @@ import {IAdvantages, IComment} from '../types';
 
 export const navItems: string[] = ['Feauters', 'Team', 'Sign In'];
 
-export enum BUTTON_TYPES {
-  SUBMIT = 'submit',
-  BUTTON = 'button',
-  RESET = 'reset',
-}
-
 export const advantages: IAdvantages[] = [
   {
     title: 'Access your files, anywhere',
